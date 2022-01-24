@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <title>Navigation</title>
+    <style>
+        *{
+            background-color:#d3e8ff;
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            height: 2500px;
+        }
+        p {
+        font-size: 30px;
+        position: relative;
+        right: 200px;
+    }
+  
+    .container1 {
+        background-color: rgb(192, 192, 192);
+        width: 300%;
+        border-radius: 15px;
+        position: relative;
+        right: 200px;
+    }
+    
+    .skill {
+        
+        background-color: rgb(116, 194, 92);
+        background-color: rgb(65, 87, 211);
+        color: white;
+        padding: 1%;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+  
+    .html {
+        width: 80%;
+    }
+    .css {
+        width: 60%;
+    }
+    .js {
+        width: 60%;
+    }
+    .c {
+        width: 70%;
+    }
+        .navbar{
+            position:fixed;
+            top:0;
+            width: 100%;
+            overflow: hidden;
+            z-index: 3;
+            background-color: rgb(37 44 76);
+            color:white;
+        }
+        .myname{
+            float: left;
+            position: relative;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 34px;
+            font-size: 45px;
+            font-size: 50px;
+            color: rgb(252, 229, 229);
+            color: rgb(243, 26, 26);
+            top: 5px;
+            /* top: 10px; */
+            left: 60px;
+            /* float: left; */
+            position: relative;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 35px;
+            font-size: 45px;
+            font-size: 50px;
+            color: rgb(252, 229, 229);
+            color: rgb(243, 26, 26);
+            top: 5px;
+            /* top: 10px; */
+            display: inline-block;
+            left: 79px;
+
+            
+        }
+        .myname:hover{
+            background-color: rgb(37 44 76) !important;
+        }
+        .navbar ul{
+            background-color:rgb(219 180 125);;
+            background-color: rgb(37 44 76);
+            overflow:auto;
+            /* try  */
+            display: inline;
+        }
+        .navbar li{
+            background-color: rgb(219 180 125);;
+            background-color: rgb(37 44 76);
+            float:right;
+            list-style: none;
+            margin: 10px 23px;
+        }
+        a{
+            background-color: rgb(219 180 125);;
+            background-color: rgb(37 44 76);
+            color: rgb(252, 229, 229);
+            position: relative;
+            top: 2px;
+            font-family: 'Baloo Bhai 2', cursive;
+            text-decoration: none;
+            font-size: 28px;
+            
+        }
+        a:hover{
+            background-color: rgb(167, 42, 42);
+            background-color: rgb(97, 119, 245);
+            background-color: blue;
+            /* background-color: rgb(57, 184, 114); */
+        }
+        .navbar li{
+            padding:6px 1px;
+        }
+        .navbar input{
+            border :2px solid black;
+            border-radius: 14px;
+            padding:2px 1px 2px 15px;
+            width:150px;
+        }
+        .container{
+            position: relative;
+            top: 100px;
+        }
+        .container h1{
+            font-size: 50px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-family: 'Mochiy Pop P One', sans-serif;
+            position: relative;
+            top: 100px;
+            top: 150px;
+            left: 50px;
+            display: inline-block;
+        }
+        .container h2{
+            font-size: 50px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-family: 'Mochiy Pop P One', sans-serif;
+            position: relative;
+            top: 190px;
+            top: 240px;
+            right: 450px;
+            display: inline-block;
+        }
+        .container p{
+            font-family: 'Baloo Bhai 2', cursive;
+            position: relative;
+            top: 220px;
+            top: 270px;
+            left: 50px;
+            display: inline-block;
+            font-size: 20px;
+        }
+        .container .contpara{
+            position: relative;
+            top: 310px;
+            /* right: -50px; */
+            left: -510px;
+        }
+        .container p button{
+            background-color: rgb(37 44 76);
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+            position: relative;
+            top: 75px;
+            top: 125px;
+            
+            width: 100px;
+            right: 360px;
+            display: inline-block;
+            font-size: 20px;
+            
+        }
+        .button{
+            background-color: rgb(37 44 76);
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+            position: relative;
+            top: 75px;
+            top: 455px;
+            left: 183px;
+             width: 200px;
+             padding: 1px 22px;
+            display: inline;
+            font-size: 20px;
+            
+        }
+        .buttonForSkill{
+            background-color: rgb(37 44 76);
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+            position: relative;
+            top: 75px;
+            top: 455px;
+            left: 183px;
+             width: 200px;
+             padding: 1px 44px;
+            display: inline;
+            font-size: 20px;
+            
+        }
+        .container img{
+            position: relative;
+            /* bottom: 0px; */
+            top: 10px;
+            float: right;
+            right: 30px;
+            height: 430px;
+            width: 780px;
+            border-radius: 20px;
+        }
+        .hobbies{
+            position: relative;
+            top:750px;
+            font-family: 'Baloo Bhai 2', cursive;
+            left: 500px;
+            display:inline-block;
+            font-size: 40px;
+        }
+        .hobbies img{
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            right: 75px;
+            top: 20px;
+            
+        }
+        .hobbiesname h6{
+            font-family: 'Baloo Bhai 2', cursive;
+            display: inline;
+            position: relative;
+            top: 750px;
+            left: 400px;
+            font-size: 34px;
+            margin: 6px;
+            padding: 15px;
+        }
+        .skills{
+            font-family: 'Baloo Bhai 2', cursive;
+            display: inline-block;
+            position: relative;
+            top: 1200px;
+            left: 650px;
+            font-size: 40px;
+        }
+        .button1{
+            color: rgb(0, 0, 0);
+            font-family: 'Baloo Bhai 2', cursive;
+            position: relative;
+            display: inline;
+            font-size: 22px;
+            text-decoration:none;
+            text-align: center;
+        }
+        #myhobby{
+            position: relative;
+            top: 200px;
+        }
+        #myskill{
+            position: relative;
+            top: 590px;
+        }
+        #homeicon{
+            /* border: 2px solid red; */
+            position: relative;
+            top: 10px;
+        }
+
+        </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- <ul class="myname">Aryam</ul> -->
+            <ul><a href="#" class="myname" onclick="changeColor()">Aryam</a></ul>
+            <ul>
+                <li><a href="#myskill"  onclick="changeColor()"   id="btn1">Skills</a>  </li>
+                <li><a href="#myhobby"  onclick="changeColor()" id="btn2">My Hobbies</a> </li>
+                <li><a href="#"  onclick="changeColor()" id="btn3">Home</a>  </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="homeicon"></div>
+    <div class="container">
+        <h1>
+            Learning Enthusiast
+        </h1>
+        <h2>
+            And Maths Lover
+        </h2>
+        <p>
+            I am Aryam . Currently in NSUT ECE branch in first semester. 
+        </p>
+        <p class="contpara">Exploring new fields include CP , Web Dev . Tring my best to achieve my goals. </p>
+        <img src="WhatsApp Image 2022-01-23 at 11.50.06 AM.jpeg" alt="">
+    </div>
+    <a href="#myhobby" class="button" onclick="callfun()">My Hobbies</a>
+    <a href="#myskill" class="buttonForSkill"onclick="callfunofskill()">Skills</a>
+    <div class="hobbies">
+        <h1>My Hobbies</h1>
+        <img src="chess-clipart-black-and-white.png" alt="">
+        <img src="code.png" alt="">
+        <img src="book1.png" alt="">
+        <img src="song1.png" alt="">
+        <img src="cricket1.png" alt="">
+    </div>
+    <div class="hobbiesname" >
+        <h6>Chess</h6>
+        <h6>Coding</h6>
+        <h6>Book</h6>
+        <h6>Music</h6>
+        <h6>Cricket</h6>
+
+    </div>
+    <div id="myhobby">
+    </div>
+    <div class="skills">
+        <h1>Skills</h1>
+        <p >HTML</p>
+        <div class="container1">
+            <div class="skill html">80%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container1">
+            <div class="skill css">60%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="container1">
+            <div class="skill js">60%</div>
+        </div>
+        <p>C++</p>
+        <div class="container1">
+            <div class="skill c">70%</div>
+        </div>
+    </div>
+    <div id="myskill"></div>
+</body>
+<script>
+    function pageScroll() {
+    	window.scrollBy(0,700);
+    changeColor();}
+    function pageScroll1() {
+    	window.scrollBy(0,1550);}
+        function changeColor(){
+            const el = event.target;
+            const valueofa1 =document.getElementById('btn1');
+            valueofa1.setAttribute('style', 'color:none');
+            const valueofa2 =document.getElementById('btn2');
+            valueofa2.setAttribute('style', 'color:none');
+            const valueofa3 =document.getElementById('btn3');
+            valueofa3.setAttribute('style', 'color:none');
+            el.setAttribute('style', 'color: red');
+            
+            
+        }
+        function callfun(){
+            const valueofa1 =document.getElementById('btn1');
+            valueofa1.setAttribute('style', 'color:none');
+            const valueofa2 =document.getElementById('btn2');
+            valueofa2.setAttribute('style', 'color:none');
+            const valueofa3 =document.getElementById('btn3');
+            valueofa3.setAttribute('style', 'color:none');
+            const el = document.getElementById('btn2');
+            el.setAttribute('style', 'color: red');
+            
+        }
+        function callfunofskill(){
+            const valueofa1 =document.getElementById('btn1');
+            valueofa1.setAttribute('style', 'color:none');
+            const valueofa2 =document.getElementById('btn2');
+            valueofa2.setAttribute('style', 'color:none');
+            const valueofa3 =document.getElementById('btn3');
+            valueofa3.setAttribute('style', 'color:none');
+            const el = document.getElementById('btn1');
+            el.setAttribute('style', 'color: red');
+            
+        }
+    </script>
+</html>
