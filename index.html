@@ -236,9 +236,10 @@
             /* top: 10px; */
             bottom: 100px;
             /* bottom: 0%; */
+            /* top: 60%; */
             float: right;
             right: 30px;
-            right: 1%;
+            right: 0px;
             height: 430px;
             height: 40%;
             width: 780px;
@@ -317,6 +318,11 @@
             position: relative;
             top: 10px;
         }
+        .end_division{
+            /* border:2px solid red; */
+            position: relative;
+            top: 1700px;
+        }
 
         </style>
 
@@ -336,7 +342,7 @@
     </header>
     <div id="homeicon"></div>
     <div class="container">
-        <h1>
+        <h1 id="main_heading">
             Learning Enthusiast
             And Maths Lover
         </h1>
@@ -393,15 +399,17 @@
         </div>
     </div>
     <div id="myskill"></div>
+    <div class="end_division"></div>
 </body>
 <script>
      var width = window.innerWidth;
     //  console.log(width);
-    //  if(width<1521){
-    //     // document.getElementById('my_pic').style.display = 'none';
-    //     document.getElementById('my_pic').style.borderRadius='50%';
-    //     document.getElementById('my_pic').style.;
-    // }
+     if(width<796){
+        // document.getElementById('my_pic').style.display = 'none';
+        // document.getElementById('my_pic').style.borderRadius='50%';
+        document.getElementById('main_heading').innerHTML='<h1>Want to learn more</h1>';
+        // document.getElementById('my_pic').style.;
+    }
     function pageScroll() {
     	window.scrollBy(0,700);
     changeColor();}
