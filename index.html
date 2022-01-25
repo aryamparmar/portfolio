@@ -150,7 +150,9 @@
             top: 150px;
             left: 50px;
             width: 700px;
+            width: 40%;
             display: inline-block;
+            overflow: hidden;
             /* padding: 1px 1px;
             margin: 10px; */
         }
@@ -171,8 +173,10 @@
             top: 210px;
             left: 50px;
             width: 700px;
+            width: 40%;
             display: inline-block;
             font-size: 20px;
+            overflow: hidden;
         }
         .container .contpara{
             position: relative;
@@ -202,9 +206,11 @@
             top: 75px;
             top: 355px;
             left: 183px;
-             width: 200px;
+            left: 10%;
+             /* width: 200px; */
+             width: 7%;
              padding: 1px 22px;
-            display: inline;
+            display: inline-block;
             font-size: 20px;
             
         }
@@ -215,8 +221,9 @@
             position: relative;
             top: 75px;
             top: 355px;
-            left: 183px;
+            left: 10%;
              width: 200px;
+             width: 7%;
              padding: 1px 44px;
             display: inline;
             font-size: 20px;
@@ -228,11 +235,17 @@
             /* bottom: 0px; */
             /* top: 10px; */
             bottom: 100px;
+            /* bottom: 0%; */
             float: right;
             right: 30px;
+            right: 1%;
             height: 430px;
+            height: 40%;
             width: 780px;
+            width: 50%;
             border-radius: 20px;
+            /* border-radius: 200%; */
+            /* width: 30; */
         }
         /* .container .mypic{
             display: inline;
@@ -244,15 +257,20 @@
             top:750px;
             font-family: 'Baloo Bhai 2', cursive;
             left: 500px;
+            left: 35%;
+            
             display:inline-block;
             font-size: 40px;
         }
         .hobbies img{
             margin: 10px;
+            /* margin: 2%; */
             width: 100px;
+            width: 15%;
             height: 100px;
             position: relative;
-            right: 75px;
+            /* right: 75px; */
+            right: 13%;
             top: 20px;
             
         }
@@ -262,8 +280,9 @@
             position: relative;
             top: 750px;
             left: 400px;
+            left: 29%;
             font-size: 34px;
-            margin: 6px;
+            /* margin: 6px; */
             padding: 15px;
         }
         .skills{
@@ -272,6 +291,8 @@
             position: relative;
             top: 1200px;
             left: 650px;
+            left: 46%;
+
             font-size: 40px;
         }
         .button1{
@@ -376,9 +397,11 @@
 <script>
      var width = window.innerWidth;
     //  console.log(width);
-     if(width<1521){
-        document.getElementById('my_pic').style.display = 'none';
-     }
+    //  if(width<1521){
+    //     // document.getElementById('my_pic').style.display = 'none';
+    //     document.getElementById('my_pic').style.borderRadius='50%';
+    //     document.getElementById('my_pic').style.;
+    // }
     function pageScroll() {
     	window.scrollBy(0,700);
     changeColor();}
