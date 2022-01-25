@@ -74,7 +74,7 @@
             color:white;
         }
         .myname{
-            float: left;
+            /* float: left; */
             position: relative;
             font-family: 'Baloo Bhai 2', cursive;
             font-size: 34px;
@@ -409,15 +409,15 @@
     <div class="end_division"></div>
 </body>
 <script>
-     var width = window.innerWidth;
+     var widthofpage = window.innerWidth;
 
     //  console.log(width);
-    if(width<401){
+    if(widthofpage<401){
 
-        document.getElementsByClassName('container1').style.width='200%';
+        document.getElementsByClassName('container1').style.width='100%';
 
     }
-     if(width<796){
+    else if(widthofpage<796){
         // document.getElementById('my_pic').style.display = 'none';
         // document.getElementById('my_pic').style.borderRadius='50%';
         // document.getElementById('main_heading').innerHTML='<h1>Want to learn more</h1>';
