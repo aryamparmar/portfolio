@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
-    <title>Navigation</title>
+    <title>About Aryam</title>
     <style>
         *{
             background-color:#d3e8ff;
@@ -149,9 +149,12 @@
             top: 100px;
             top: 150px;
             left: 50px;
+            width: 700px;
             display: inline-block;
+            /* padding: 1px 1px;
+            margin: 10px; */
         }
-        .container h2{
+        /* .container h2{
             font-size: 50px;
             font-family: 'Baloo Bhai 2', cursive;
             font-family: 'Mochiy Pop P One', sans-serif;
@@ -160,13 +163,14 @@
             top: 240px;
             right: 450px;
             display: inline-block;
-        }
+        } */
         .container p{
             font-family: 'Baloo Bhai 2', cursive;
             position: relative;
             top: 220px;
-            top: 270px;
+            top: 210px;
             left: 50px;
+            width: 700px;
             display: inline-block;
             font-size: 20px;
         }
@@ -196,7 +200,7 @@
             font-family: 'Baloo Bhai 2', cursive;
             position: relative;
             top: 75px;
-            top: 455px;
+            top: 355px;
             left: 183px;
              width: 200px;
              padding: 1px 22px;
@@ -210,7 +214,7 @@
             font-family: 'Baloo Bhai 2', cursive;
             position: relative;
             top: 75px;
-            top: 455px;
+            top: 355px;
             left: 183px;
              width: 200px;
              padding: 1px 44px;
@@ -219,15 +223,22 @@
             
         }
         .container img{
+            /* position: fixed; */
             position: relative;
             /* bottom: 0px; */
-            top: 10px;
+            /* top: 10px; */
+            bottom: 100px;
             float: right;
             right: 30px;
             height: 430px;
             width: 780px;
             border-radius: 20px;
         }
+        /* .container .mypic{
+            display: inline;
+            position: fixed;
+            position: absolute;
+        } */
         .hobbies{
             position: relative;
             top:750px;
@@ -306,15 +317,20 @@
     <div class="container">
         <h1>
             Learning Enthusiast
+            And Maths Lover
         </h1>
         <h2>
-            And Maths Lover
         </h2>
         <p>
             I am Aryam . Currently in NSUT ECE branch in first semester. 
+            Exploring new fields include CP , Web Dev . Tring my best to achieve my goals.
         </p>
-        <p class="contpara">Exploring new fields include CP , Web Dev . Tring my best to achieve my goals. </p>
-        <img src="WhatsApp Image 2022-01-23 at 11.50.06 AM.jpeg" alt="">
+        <p class="contpara">
+        </p>
+        <div class="mypic" id="my_pic">
+
+            <img  src="WhatsApp Image 2022-01-23 at 11.50.06 AM.jpeg" alt="Image of Aryam">
+        </div>
     </div>
     <a href="#myhobby" class="button" onclick="callfun()">My Hobbies</a>
     <a href="#myskill" class="buttonForSkill"onclick="callfunofskill()">Skills</a>
@@ -358,6 +374,11 @@
     <div id="myskill"></div>
 </body>
 <script>
+     var width = window.innerWidth;
+    //  console.log(width);
+     if(width<1521){
+        document.getElementById('my_pic').style.display = 'none';
+     }
     function pageScroll() {
     	window.scrollBy(0,700);
     changeColor();}
