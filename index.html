@@ -457,19 +457,20 @@
      var widthofpage = window.innerWidth;
 
     //  console.log(width);
-    // if(widthofpage<401){
+    if(widthofpage<450){
 
-    //     document.getElementsByClassName('container1').style.width='80%';
-    //     document.getElementById('main_heading').style.fontSize='160%';
-
-    // }
-    if(widthofpage<796){
-        // document.getElementById('my_pic').style.display = 'none';
-        // document.getElementById('my_pic').style.borderRadius='100%';
-        // document.getElementById('main_heading').innerHTML='<h1>Want to learn more</h1>';
+        // document.getElementsByClassName('container1').style.width='80%';
+        // document.getElementById('main_heading').style.fontSize='160%';
         document.getElementById('main_heading').style.width='100%';
         document.getElementById('main_heading').style.fontSize='150%';
         
+    }
+    else if(widthofpage<796){
+        // document.getElementById('my_pic').style.display = 'none';
+        // document.getElementById('my_pic').style.borderRadius='100%';
+        // document.getElementById('main_heading').innerHTML='<h1>Want to learn more</h1>';
+        
+        document.getElementById('main_heading').style.fontSize='150%';
         // document.getElementById('my_pic').style.;
     }
     function pageScroll() {
