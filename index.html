@@ -102,6 +102,8 @@
         }
         .myname:hover{
             background-color: rgb(37 44 76) !important;
+            transform: scale(1.1);
+
         }
         .navbar ul{
             background-color:rgb(219 180 125);;
@@ -132,6 +134,8 @@
             background-color: rgb(167, 42, 42);
             background-color: rgb(97, 119, 245);
             background-color: blue;
+            /* transform: scale(1.1); */
+
             /* background-color: rgb(57, 184, 114); */
         }
         .navbar li{
@@ -155,6 +159,7 @@
             position: relative;
             top: 100px;
             top: 150px;
+            top: 100px;
             left: 50px;
             width: 700px;
             width: 40%;
@@ -178,6 +183,7 @@
             position: relative;
             top: 220px;
             top: 210px;
+            top: 140px;
             left: 50px;
             width: 700px;
             width: 40%;
@@ -211,7 +217,8 @@
             font-family: 'Baloo Bhai 2', cursive;
             position: relative;
             top: 75px;
-            top: 355px;
+            top: 275px;
+            top: 190px;
             left: 183px;
             left: 10%;
              /* width: 200px; */
@@ -227,12 +234,14 @@
             font-family: 'Baloo Bhai 2', cursive;
             position: relative;
             top: 75px;
-            top: 355px;
+            top: 275px;
+            top: 190px;
             left: 10%;
              width: 200px;
              width: 7%;
-             padding: 1px 44px;
-            display: inline;
+             width: 6%;
+             padding: 1px 12px 0px 44px;
+            display: inline-block;
             font-size: 20px;
             
         }
@@ -242,6 +251,7 @@
             /* bottom: 0px; */
             /* top: 10px; */
             bottom: 100px;
+            bottom: 150px;
             /* bottom: 0%; */
             /* top: 60%; */
             float: right;
@@ -333,6 +343,20 @@
             position: relative;
             top: 1700px;
         }
+         /* .btn:hover{
+          transform: scale(1.1) !important;
+        } */
+        .navbar ul :hover{
+            transform: scale(1.08);
+        }
+        /* .container .buttonForSkill a:hover{
+            transform: scale(1.1);
+
+        } */
+        .container a:hover{
+            transform: scale(1.1);
+
+        }
 
         </style>
 
@@ -343,9 +367,9 @@
             <!-- <ul class="myname">Aryam</ul> -->
             <ul><a href="#" class="myname" onclick="changeColor()">Aryam</a></ul>
             <ul>
-                <li><a href="#myskill"  onclick="changeColor()"   id="btn1">Skills</a>  </li>
-                <li><a href="#myhobby"  onclick="changeColor()" id="btn2">My Hobbies</a> </li>
-                <li><a href="#"  onclick="changeColor()" id="btn3">Home</a>  </li>
+                <li><a href="#myskill"  onclick="changeColor()"   id="btn1" class="btn">Skills</a>  </li>
+                <li><a href="#myhobby"  onclick="changeColor()" id="btn2" class="btn">My Hobbies</a> </li>
+                <li><a href="#"  onclick="changeColor()" id="btn3" class="btn">Home</a>  </li>
             </ul>
         </nav>
 
@@ -368,9 +392,10 @@
 
             <img  src="WhatsApp Image 2022-01-23 at 11.50.06 AM.jpeg" alt="Image of Aryam">
         </div>
+        
+        <a href="#myhobby" class="button" onclick="callfun()">My Hobbies</a>
+        <a href="#myskill" class="buttonForSkill"onclick="callfunofskill()">Skills</a>
     </div>
-    <a href="#myhobby" class="button" onclick="callfun()">My Hobbies</a>
-    <a href="#myskill" class="buttonForSkill"onclick="callfunofskill()">Skills</a>
     <div class="hobbies">
         <h1>My Hobbies</h1>
         <img src="chess-clipart-black-and-white.png" alt="">
