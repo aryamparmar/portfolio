@@ -38,7 +38,10 @@
         border-radius: 15px;
         position: relative;
         right: 200px;
+        /* top: 10px; */
+        bottom: 24px;
         right: 90%;
+        display: inline-block;
     }
     
     .skill {
@@ -387,6 +390,17 @@
             transform: scale(1.1);
 
         }
+        .skills img{
+           display: inline-block;
+           width: 35px;
+           height: 35px;
+           
+        }
+        /* .skills h1{
+          color: rgb(212, 139, 4);
+          outline: 2px  rgb(202, 14, 14);
+          stroke: 2px solid black;
+        } */
 
         </style>
 
@@ -463,19 +477,27 @@
     </div>
     <div class="skills">
         <h1>Skills</h1>
-        <p >HTML</p>
+        <p >
+            <img src="html1.jpg" alt="">
+            HTML</p>
         <div class="container1">
             <div class="skill html">80%</div>
         </div>
-        <p>CSS</p>
+        <p>
+            <img src="css1.png" alt="">
+            CSS</p>
         <div class="container1">
             <div class="skill css">60%</div>
         </div>
-        <p>JavaScript</p>
+        <p>
+            <img src="js.png" alt="">
+            JavaScript</p>
         <div class="container1">
             <div class="skill js">60%</div>
         </div>
-        <p>C++</p>
+        <p>
+            <img src="c++1.png" alt="">
+            C++</p>
         <div class="container1">
             <div class="skill c">70%</div>
         </div>
@@ -493,6 +515,7 @@
         // document.getElementById('main_heading').style.fontSize='160%';
         document.getElementById('main_heading').style.width='100%';
         document.getElementById('main_heading').style.fontSize='150%';
+        document.getElementById('my_pic').style.top='50px';
         
     }
     else if(widthofpage<796&&widthofpage>600){
@@ -501,6 +524,7 @@
         // document.getElementById('main_heading').innerHTML='<h1>Want to learn more</h1>';
         
         document.getElementById('main_heading').style.fontSize='120%';
+
         // document.getElementById('my_pic').style.;
     }
     function pageScroll() {
