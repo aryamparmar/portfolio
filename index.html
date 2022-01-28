@@ -28,6 +28,14 @@
          right: 90%;
         /* left: 100px;
         left: 100%; */
+        /* background-image: linear-gradient(red, yellow); */
+        /* background-image: linear-gradient(blue, purple); */
+        /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+        text-shadow: 2px 2px 2px rgb(0, 225, 255);
+        /* text-shadow: 2px 2px 4px blue; */
+        /* color: red; */
+        /* color: purple; */
+
 
         
     }
@@ -42,6 +50,7 @@
         bottom: 24px;
         right: 90%;
         display: inline-block;
+
     }
     
     .skill {
@@ -97,6 +106,9 @@
             font-size: 50px;
             color: rgb(252, 229, 229);
             color: rgb(243, 26, 26);
+            text-shadow: 2px 2px 4px red;
+            text-shadow: 2px 2px 4px cyan;
+
             top: 5px;
             /* top: 10px; */
             display: inline-block;
@@ -132,6 +144,10 @@
             font-family: 'Baloo Bhai 2', cursive;
             text-decoration: none;
             font-size: 28px;
+            text-shadow: 2px 2px 4px red;
+            text-shadow: 2px 2px 4px cyan;
+            text-shadow: 2px 2px 4px blue;
+
             
         }
         a:hover{
@@ -309,6 +325,9 @@
             
             display:inline-block;
             font-size: 40px;
+            /* text-shadow: 2px 2px 4px red; */
+            text-shadow: 2px 2px  5px red;
+               /* color: linear-gradient(red, yellow); */
         }
         .hobbies img{
             margin: 10px;
@@ -332,6 +351,17 @@
             padding: 10px 3px;
             position: relative;
             right: 16%;
+            text-shadow: 2px 2px 4px blue;
+            /* text-shadow: 2px 2px 4px cyan; */
+            text-shadow: 2px 2px 4px rgb(105, 74, 93);
+            text-shadow: 2px 2px 4px rgb(0, 139, 120);
+            text-shadow: 2px 2px 10px black;
+            text-shadow: 2px 2px 3px cyan;
+            /* text-shadow: 2px 2px 3px green; */
+            color: cornflowerblue;
+            color: red;
+
+
             /* -webkit-text-stroke: 0.5px #ff0000; */
 
         }
@@ -355,6 +385,8 @@
             left: 43%;
 
             font-size: 40px;
+            text-shadow: 2px 2px 4px red;
+
         }
         .button1{
             color: rgb(0, 0, 0);
@@ -406,6 +438,77 @@
            height: 35px;
            
         }
+        header div{
+            width: 400px;
+            width: 100%;
+            height: 50px;
+            height: 10px;
+
+            /* height: px; */
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            display: inline-block;
+            /* position: fixed; */
+            /* display: inline; */
+            z-index: 2;
+            /* position: relative; */
+            top: 70px;
+            left: -50px;
+            /* top: 1000px; */
+        }
+
+        @keyframes example {
+             0%   {background-color:red; left:0px; top:70px;}
+             25%   {background-color:rgb(0, 255, 98); left:0px; top:70px;}
+             50%   {background-color:rgb(255, 136, 0); left:0px; top:70px;}
+             75%   {background-color:rgb(255, 0, 234); left:0px; top:70px;}
+             /* 100%   {background-color:red; left:93%; top:70px;} */
+             100%   {background-color:red; left:0px; top:70px;}
+             /* 25%  {background-color:yellow; left:200px; top:0px;}
+             50%  {background-color:blue; left:200px; top:200px;}
+             75%  {background-color:green; left:0px; top:200px;}
+             100% {background-color:red; left:0px; top:0px;} */
+           }
+         .hobby_line{
+            width: 400px;
+            /* width: 100%; */
+            height: 10px;
+            /* height: 0px; */
+
+            
+
+            /* height: px; */
+            background-color: red;
+            /* top: 800px; */
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            display: inline-block;
+            position: relative;
+            /* top: 1000px; */
+            /* top: 4000px; */
+            /* display: inline; */
+            /* z-index: 2; */
+            /* position: relative; */
+            /* top: 0px; */
+            /* bottom: 1000px; */
+            /* left: -500px; */
+           }
+        @keyframes example1 {
+             0%   {background-color:red; left:0px; top:170px;}
+             25%   {background-color:yellow; left:0px; top:70px;}
+             50%   {background-color:blue; left:0px; top:70px;}
+             75%   {background-color:cyan; left:0px; top:70px;}
+             /* 100%   {background-color:red; left:93%; top:70px;} */
+             100%   {background-color:red; left:0px; top:70px;}
+             /* 25%  {background-color:yellow; left:200px; top:0px;}
+             50%  {background-color:blue; left:200px; top:200px;}
+             75%  {background-color:green; left:0px; top:200px;}
+             100% {background-color:red; left:0px; top:0px;} */
+           }
         @media screen and (max-width:764px) {
             p {
         font-size: 30px;
@@ -542,6 +645,7 @@
         }
         .navbar li{
             padding:6px 1px;
+            padding:14px 1px;
         }
         /* .navbar input{
             border :2px solid black;
@@ -687,8 +791,10 @@
             width: 780px;
             width: 50%;
             top: -50px;
+            top: -110px;
             left: 100px;
             left: 130px;
+            left: 200px;
             height: 200px;
             width: 300px;
 
@@ -712,6 +818,7 @@
             top:950px;
             /* top:710px; */
             font-family: 'Baloo Bhai 2', cursive;
+           
             left: 500px;
             left: 36%;
             /* -webkit-text-stroke: 2px #ff0000; */
@@ -802,6 +909,7 @@
             border:1px solid red;
             position: relative;
             top: 1700px;
+            width: 140%;
         }
         /* .btn:hover{
             transform: scale(1.1) !important;
@@ -822,6 +930,26 @@
            width: 35px;
            height: 35px;
            
+        }
+
+        header div{
+            width: 400px;
+            width: 140%;
+            height: 50px;
+            height: 5px;
+
+            /* height: px; */
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            display: inline-block;
+            /* display: inline; */
+            /* z-index: 4; */
+            /* position: relative; */
+            top: -10px;
+            /* left: -500px; */
         }
         }
         /* .skills h1{
@@ -844,6 +972,7 @@
             /* -webkit-text-stroke: 2px  gray; */
 
         /* } */
+      
 
         </style>
 
@@ -859,6 +988,9 @@
                 <li><a href="#"  onclick="changeColor()" id="btn3" class="btn">Home</a>  </li>
             </ul>
         </nav>
+        <div>
+
+        </div>
 
     </header>
     <div id="homeicon"></div>
@@ -871,8 +1003,10 @@
         <h2>
         </h2>
         <p>
-            I am Aryam . Currently in NSUT ECE branch in first semester. 
-            Exploring new fields include CP , Web Dev . Tring my best to achieve my goals.
+            I am Aryam . Currently in Netaji Subhas University of Technology in ECE branch in first semester. 
+            Exploring new fields include CP , Web Dev . Tring my best to achieve my goals :)
+            <!-- I am Aryam . Currently in NSUT ECE branch in first semester. 
+            Exploring new fields include CP , Web Dev . Tring my best to achieve my goals. -->
         </p>
         <p class="contpara">
         </p>
@@ -885,6 +1019,9 @@
         <a href="#myhobby" class="button" onclick="callfun()">Hobbies</a>
         <a href="#myskill" class="buttonForSkill"onclick="callfunofskill()">Skills</a>
     </div>
+    <!-- <div class="hobby_line">
+      
+    </div> -->
     <div class="hobbies">
         <h1>My Hobbies</h1>
         <div class="chess">
