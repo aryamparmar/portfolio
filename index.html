@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
-    <title>About Aryam</title>
+    <title>Portfolio</title>
     <style>
         *{
             background-color:#d3e8ff;
@@ -254,6 +254,7 @@
             display: inline-block;
             font-size: 20px;
             font-size: 120%;
+            /* text-align: center; */
             
         }
         .buttonForSkill{
@@ -265,15 +266,16 @@
             top: 275px;
             top: 190px;
             left: 10%;
-             width: 200px;
-             width: 7%;
-             width: 6%;
-             padding: 1px 1px 0px 3%;
-
+            width: 200px;
+            width: 7%;
+            width: 6%;
+            padding: 1px 1px 0px 3%;
+            
             display: inline-block;
             font-size: 20px;
             font-size: 120%;
             
+            /* text-align: center; */
         }
         .container img{
             /* position: fixed; */
@@ -459,6 +461,98 @@
             left: -50px;
             /* top: 1000px; */
         }
+        .enjoy1{
+            /* border: 2px solid red; */
+            height: 17px;
+            width: 17px;
+            position: relative;
+            border-radius: 50%;
+            bottom: 200px;
+            /* left: 300px; */
+            left: 33%;
+            animation-name: enjoy1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            display: inline-block;
+        }
+        .enjoy2{
+            /* border: 2px solid red; */
+            height: 17px;
+            width: 17px;
+            position: relative;
+            border-radius: 50%;
+            bottom: 200px;
+            /* left: 300px; */
+            left: 33%;
+            animation-name: enjoy2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+           display: inline-block;
+        }
+        .enjoy3{
+            /* border: 2px solid red; */
+            height: 17px;
+            width: 17px;
+            position: relative;
+            border-radius: 50%;
+            bottom: 200px;
+            /* left: 300px; */
+            left: 33%;
+            animation-name: enjoy3;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+           display: inline-block;
+           
+        }
+        .enjoy4{
+            /* border: 2px solid red; */
+            height: 17px;
+            width: 17px;
+            position: relative;
+            border-radius: 50%;
+            bottom: 200px;
+            /* left: 300px; */
+            left: 33%;
+            animation-name: enjoy4;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+           display: inline-block;
+
+        }
+        @keyframes enjoy1 {
+            0%{background-color: red; left:34% ; bottom: 140px;}
+            25%{background-color: orange; left:33% ; bottom: 140px;}
+            50%{background-color: rgb(255, 0, 212); left:33% ; bottom: 120px;}
+            75%{background-color: green; left:34% ; bottom: 120px;}
+            100%{background-color: red; left:34% ; bottom: 140px;}
+        }
+        @keyframes enjoy2 {
+            0%{background-color: red; left:31.5% ; bottom: 140px;}
+            25%{background-color: orange; left:31.5% ; bottom: 120px;}
+            50%{background-color: rgb(255, 0, 212); left:32.8% ; bottom: 120px;}
+            75%{background-color: green; left:32.8% ; bottom: 140px;}
+            100%{background-color: red; left:31.5% ; bottom: 140px;}
+        }
+        @keyframes enjoy3 {
+            0%{background-color: red; left:30% ; bottom: 120px;}
+            25%{background-color: orange; left:31.5% ; bottom: 120px;}
+            50%{background-color: rgb(255, 0, 212); left:31.5% ; bottom: 140px;}
+            75%{background-color: green; left:30% ; bottom: 140px;}
+            100%{background-color: red; left:30% ; bottom: 120px;}
+        }
+        @keyframes enjoy4 {
+            0%{background-color: red; left:30% ; bottom: 120px;}
+            25%{background-color: orange; left:30% ; bottom: 140px;}
+            50%{background-color: rgb(255, 0, 212); left:28.7% ; bottom: 140px;}
+            75%{background-color: green; left:28.7% ; bottom: 120px;}
+            100%{background-color: red; left:30% ; bottom: 120px;}
+            /* 0%{background-color: red; left:31% ; bottom: 110px;}
+            25%{background-color: red; left:31% ; bottom: 150px;}
+            50%{background-color: red; left:29% ; bottom: 150px;}
+            75%{background-color: red; left:29% ; bottom: 110px;}
+            100%{background-color: red; left:31% ; bottom: 110px;} */
+        }
+
 
         @keyframes example {
              0%   {background-color:red; left:0px; top:70px;}
@@ -508,6 +602,27 @@
              50%  {background-color:blue; left:200px; top:200px;}
              75%  {background-color:green; left:0px; top:200px;}
              100% {background-color:red; left:0px; top:0px;} */
+           }
+           @media screen and (max-width:1154px) {
+               
+            .enjoy1{
+           
+           display: none;
+       }
+       .enjoy2{
+          
+          display: none;
+       }
+       .enjoy3{
+         
+          display: none;
+          
+       }
+       .enjoy4{
+           display: none;
+          
+
+       }
            }
         @media screen and (max-width:764px) {
             p {
@@ -951,6 +1066,26 @@
             top: -10px;
             /* left: -500px; */
         }
+        .enjoy1{
+           
+            display: none;
+        }
+        .enjoy2{
+           
+           display: none;
+        }
+        .enjoy3{
+          
+           display: none;
+           
+        }
+        .enjoy4{
+            display: none;
+           
+
+        }
+      
+      
         }
         /* .skills h1{
           color: rgb(255, 166, 0);
@@ -1004,7 +1139,7 @@
         </h2>
         <p>
             I am Aryam . Currently in Netaji Subhas University of Technology in ECE branch in first semester. 
-            Exploring new fields include CP , Web Dev . Tring my best to achieve my goals :)
+            Exploring new fields include CP , Web Dev . Trying my best to achieve my goals :)
             <!-- I am Aryam . Currently in NSUT ECE branch in first semester. 
             Exploring new fields include CP , Web Dev . Tring my best to achieve my goals. -->
         </p>
@@ -1083,6 +1218,13 @@
         </div>
     </div>
     <div id="myskill"></div>
+    <div class="enjoy1"></div>
+    <div class="enjoy2"></div>
+    <div class="enjoy3"></div>
+    <div class="enjoy4">
+
+    </div>
+
     <div class="end_division"></div>
 </body>
 <script>
